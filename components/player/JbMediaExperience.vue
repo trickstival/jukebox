@@ -2,7 +2,7 @@
   <section class="media-experience">
     <div class="media-experience-content">
       <media-experience-header />
-      <media-player />
+      <media-player class="media-player" />
     </div>
   </section>
 </template>
@@ -20,7 +20,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.media-player {
+  flex-grow: 1;
+}
 .media-experience-content {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   width: 100%;
   max-width: 900px;
