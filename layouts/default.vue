@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="jb-app">
     <nuxt />
   </div>
 </template>
@@ -9,6 +9,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#jb-app {
+  min-height: 100vh;
 }
 
 html,

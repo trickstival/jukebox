@@ -14,7 +14,11 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '//cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css' }
+    ]
+
   },
   /*
    ** Customize the progress-bar color
